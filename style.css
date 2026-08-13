@@ -12,6 +12,9 @@ body {
   width: 100%;
   min-height: 100vh;
   opacity: 1;
+  width: 1280;
+  height: 787;
+  opacity: 1;
 }
 
 .topcontainer {
@@ -40,27 +43,32 @@ body {
   justify-content: center;
 }
 
-.container img {
-  width: 22px;
-  height: 22px;
-}
-
 .search-bar {
   display: flex;
   align-items: center;
   background: #fff;
   border-radius: 30px;
-  padding: 0 5px 0 20px;
-  width: 350px;
-  height: 50px;
+  padding: 0 50px 0 20px;
+  width: 400px;
+  height: 49px;
+  angle: 0 deg;
+  opacity: 1;
+  top: 50px;
+  left: 840px;
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 .search-bar input {
   border: none;
   outline: none;
-  padding: 10px;
+  padding: 10px 10px 10px 100px;
   width: 100%;
   font-size: 16px;
+  width: 173px;
+  height: 24px;
+  opacity: 1;
+  top: 63px;
+  left: 927px;
 }
 
 .programmes {
@@ -72,8 +80,10 @@ body {
   text-align: center;
   width: 1200px;
   height: 555px;
+  top: 139px;
+  left: 40px;
   opacity: 1;
-  border-radius: 15px;
+
 }
 
 .programmes h1 {
